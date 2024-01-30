@@ -1,0 +1,22 @@
+body{
+    background-color: #E0CA3C;
+}
+.backdrop{
+    height: 85vh;
+    width: 99vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    background-color: #000f08;
+}
+.mover{
+    height: 30px;
+    width: 30px;
+    background-color: #F1DB4B;
+}
+p{
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+}
