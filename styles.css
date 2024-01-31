@@ -14,6 +14,7 @@ body{
     height: 30px;
     width: 30px;
     background-color: #F1DB4B;
+    position: absolute;
 }
 p{
     display: flex;
