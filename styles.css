@@ -21,3 +21,9 @@ p{
     justify-content: center;
     font-size: larger;
 }
+#step-count{
+    color: white;
+    margin-left: 85vw;
+    margin-bottom: 80vh;
+
+}
