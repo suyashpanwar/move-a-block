@@ -1,3 +1,6 @@
+let stepcount = 0;
+let stepper = document.querySelector("#step-count");
+stepper.innerText = "step count: " + stepcount;
 document.addEventListener('DOMContentLoaded', function () {
     const mover = document.getElementById('mov');
     const step = 10;
@@ -6,15 +9,43 @@ document.addEventListener('DOMContentLoaded', function () {
         switch (event.key) {
             case 'ArrowUp':
                 move('up');
+                stepcount++;
+                stepper.innerText = "step count: " + stepcount;
+                break;
+            case 'w':
+                move('up');
+                stepcount++;
+                stepper.innerText = "step count: " + stepcount;
                 break;
             case 'ArrowDown':
                 move('down');
+                stepcount++;
+                stepper.innerText = "step count: " + stepcount;
+                break;
+            case 's':
+                move('down');
+                stepcount++;
+                stepper.innerText = "step count: " + stepcount;
                 break;
             case 'ArrowLeft':
                 move('left');
+                stepcount++;
+                stepper.innerText = "step count: " + stepcount;
+                break;
+            case 'a':
+                move('left');
+                stepcount++;
+                stepper.innerText = "step count: " + stepcount;
                 break;
             case 'ArrowRight':
                 move('right');
+                stepcount++;
+                stepper.innerText = "step count: " + stepcount;
+                break;
+            case 'd':
+                move('right');
+                stepcount++;
+                stepper.innerText = "step count: " + stepcount;
                 break;
         }
     });
@@ -39,3 +70,5 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     }
 });
+
+console.log(stepcount)
