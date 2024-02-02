@@ -1,5 +1,5 @@
 body{
-    background-color: #E0CA3C;
+    background-color: #FFA62B;
 }
 .backdrop{
     height: 85vh;
@@ -13,7 +13,7 @@ body{
 .mover{
     height: 30px;
     width: 30px;
-    background-color: #F1DB4B;
+    background-color: #FFA62B;
     position: absolute;
 }
 p{
@@ -22,8 +22,19 @@ p{
     font-size: larger;
 }
 #step-count{
+    position: absolute;
     color: white;
-    margin-left: 85vw;
-    margin-bottom: 80vh;
+    margin-left: 92vw;
+    margin-bottom: 83vh;
 
+}
+#mode{
+    border-radius: 50%;
+    margin-left: 95vw;
+    margin-top: 77vh;
+    height: 40px;
+    width: 40px;
+}
+.main-text{
+    color: black;
 }

@@ -71,4 +71,19 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 });
 
-console.log(stepcount)
+let mode = document.querySelector("#mode");
+let bod = document.querySelector("body");
+let moder = 'light';
+let moved = document.querySelector(".mover")
+mode.addEventListener("click",()=>{
+    if(moder==='light'){
+        bod.style.backgroundColor = "#E9724C";
+        moved.style.backgroundColor = "#E9724C";
+        moder = 'dark'; 
+    }
+    else{
+        bod.style.backgroundColor = "#FFA62B";
+        moved.style.backgroundColor = "#FFA62B";
+        moder = 'light'; 
+    }
+})
